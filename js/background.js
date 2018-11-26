@@ -1,7 +1,9 @@
 //Created by Alex Morgan (alexm.xyz). Please do not re-use without permission.
 
 // Called when the user clicks on the browser action.
-
+chrome.browserAction.onClicked.addListener(function(tab) {
+    window.open("https://search.easyvoice.xyz/go");
+});
 
 chrome.commands.onCommand.addListener(function (command) {
         console.log('Command:', command)
