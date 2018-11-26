@@ -1,1 +1,1 @@
-zip easyvoiceplus.zip img/ js/ manifest.json options.html
+zip easyvoiceplus.zip img/* js/* manifest.json options.html
